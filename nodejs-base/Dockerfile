@@ -1,5 +1,4 @@
-FROM aexea/aexea-base
-LABEL maintainer "Aexea Carpentry"
+FROM OlegGorJ/master-base
 
 USER root
 RUN curl -sL https://deb.nodesource.com/setup_4.x | bash -
