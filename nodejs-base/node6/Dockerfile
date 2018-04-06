@@ -1,5 +1,4 @@
-FROM aexea/aexea-base:node6
-LABEL maintainer "Aexea Carpentry"
+FROM OlegGorJ/master-base:node6
 
 RUN mkdir -p /opt/code
 RUN chown node:node /opt/code
